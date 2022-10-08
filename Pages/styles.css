@@ -1,0 +1,200 @@
+
+
+
+body{
+    color: #ffffff;
+    background-color: orangered;
+}
+
+p {
+    font-weight: bold;
+}
+
+.body_contacts{
+    text-align: center;
+    margin-top: 100px;
+    background-color: #ff6f00;
+    /*background: linear-gradient( #ff6f00, black);*/
+    
+}
+h1, h2 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#i{
+    font-style: italic;
+    color: #76ff03;
+}
+.img-1{
+    width: 150px;
+    height: 200px;
+    
+}
+
+.p1{
+    float: right;
+    margin-right:250px;
+    width: 100;
+}
+
+.img-p1{
+    
+        border: 5px solid white;
+        border-width: 2px;
+        padding: 10px;
+        border-style: hidden;
+        background-color: #ff6f00;
+        border-radius: 20px;
+        box-shadow: 10px 10px white;
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+
+.experience{
+    border: 5px solid white;
+    border-width: 2px;
+    padding: 10px;
+    border-style: hidden;
+    background-color: #ff6f00;
+    border-radius: 20px;
+    box-shadow: 10px 10px white;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+.education{
+    border: 5px solid white;
+    border-width: 2px;
+    padding: 10px;
+    border-style: hidden;
+    background-color: #ff6f00;
+    border-radius: 20px;
+    box-shadow: 10px 10px white;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+.skills{
+    border: 5px solid white;
+    border-width: 2px;
+    padding: 10px;
+    border-style: hidden;
+    background-color: #ff6f00;
+    border-radius: 20px;
+    box-shadow: 10px 10px white;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+.center{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212121;
+}
+
+span{
+    margin-left: 15px;
+    position: relative;
+}
+
+.img-c{
+box-shadow: -20px -20px 10px -10px #ff6f00;
+}
+.img-j{
+    box-shadow: 10px 10px 5px 5px #ff6f00;
+}
+
+.body-cert{
+    background-color: white;
+    color: black;
+}
+
+b{
+    text-shadow: 5px 10px 10px black;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from{
+        margin-bottom: 100%;
+        width: 300%;
+    }
+
+    /*75%{
+        font-size: 150%;
+        margin-left: 25%;
+        width: 75%;
+    }*/
+    to{
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+
+.img-c, .img-j{
+    animation-duration: 3s;
+    animation-name: bounce;
+}
+
+@keyframes bounce{
+    from{
+        margin-bottom: 100%;
+        width: 300%;
+    }
+    to{
+        margin-bottom: 0%;
+        width: 100%;
+    }
+}
+
+/*footer{
+    border-top: 1px solid rgba(0, 0, 0, 3);
+    background: rgba(0, 0, 0, 25);
+    box-shadow: inset 0 1px
+    rgba(255,255,255,0.3);
+    height: 40px;
+}*/
+
+footer{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.body-form{
+    background: linear-gradient(#ff6f00, black);
+}
+
+.border-port{
+    border: 1px;
+    border-width: 50px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 450px;
+}
+.body-port{
+    background: linear-gradient(#ff6f00, black);
+}
+
+.button{
+    border: 5px;
+    border-radius: 5px;
+    background-color: #ff6f00;
+    color: black;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+

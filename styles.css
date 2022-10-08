@@ -1,0 +1,53 @@
+
+
+
+body{
+    color: black;
+    background-color: #2F5A78;
+    background-image: url("src/cup-of-coffee-1280537__340.webp");
+   background-repeat: no-repeat;
+     background-size: cover;
+   /* background-attachment: fixed;*/
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+    text-align: center;
+    
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.headings, a{
+    text-align: right;
+    color: #ff3d00;
+    text-shadow: 5px 2px 4px grey;
+    word-spacing: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.middle{
+    margin-top: 200px;
+}
+
+.front-page{
+color: white;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
