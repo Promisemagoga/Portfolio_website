@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     color: black;
@@ -7,6 +10,7 @@ body{
     background-image: url("src/cup-of-coffee-1280537__340.webp");
    background-repeat: no-repeat;
      background-size: cover;
+     position: relative;
    /* background-attachment: fixed;*/
 }
 
