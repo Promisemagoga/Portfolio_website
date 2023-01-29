@@ -1,6 +1,4 @@
 
-
-
 body{
     color: #ffffff;
     background-color: orangered;
@@ -14,8 +12,13 @@ p {
     text-align: center;
     margin-top: 100px;
     background-color: #ff6f00;
-    /*background: linear-gradient( #ff6f00, black);*/
     
+}
+
+.head{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
 }
 h1{
     font-weight: bold;
@@ -55,7 +58,7 @@ h3{
 
 .p1{
     float: right;
-   margin-right:350px
+   margin-right:100px
 }
 
 .img-p1{
@@ -118,9 +121,7 @@ span{
     position: relative;
 }
 
-/*.img-c{
-box-shadow: -20px -20px 10px -10px white;
-}*/
+
 .img-j{
     box-shadow: 10px 10px 5px 5px white;
 }
@@ -142,11 +143,7 @@ b{
         width: 300%;
     }
 
-    /*75%{
-        font-size: 150%;
-        margin-left: 25%;
-        width: 75%;
-    }*/
+
     to{
         margin-bottom: 0%;
         width: 100%;
@@ -169,13 +166,6 @@ b{
     }
 }
 
-/*footer{
-    border-top: 1px solid rgba(0, 0, 0, 3);
-    background: rgba(0, 0, 0, 25);
-    box-shadow: inset 0 1px
-    rgba(255,255,255,0.3);
-    height: 40px;
-}*/
 
 footer{
     box-shadow: 5px 10px -10px 5px black;
@@ -208,6 +198,8 @@ a:hover{
     background-color: #ff6f00;
 }
 
+
+/*view website/repo button*/
 .button{
     height: 20px;
     border-color: #ff6f00;
@@ -223,10 +215,62 @@ display: flex;
 justify-content: space-between;
 }
 
+/*Social media links*/
 .icons{
     margin-left: 70px;
     padding-top: 5px;
     color: black;
     text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .img-j {
+        width: 350px;
+        height: 330px;
+    }
+
+    footer {
+        height: 120px;
+
+    }
+
+    .icons {
+        margin-left: 25px;
+        padding-top: 5px;
+        color: black;
+        text-align: center;
+    }
+
+    .img-c {
+        width: 380px;
+        height: 330px;
+    }
+
+    .row {
+        display: block;
+        position: relative;
+        left: 38px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .border-port{
+        margin-top: 20px;
+    }
+
+    .p1{
+        float: right;
+       margin-right:10px;
+       margin-top: 40px;
+       
+    }
+    
+    .img-1{
+        position: relative;
+        left: 100px;
+    }
+
 }
 
