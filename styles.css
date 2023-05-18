@@ -228,7 +228,7 @@ background-color: #0A0F22;
     top: 20px;
 }
 
-.row{
+.row1{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,7 +238,7 @@ background-color: #0A0F22;
 }
 
 
-.row div{
+.row1 div{
     background: rgba(255, 255, 255, 0.2);
  border-radius: 2px;
  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -253,10 +253,128 @@ background-color: #0A0F22;
     box-shadow: 0 3px 10px whitesmoke;
 }
 
-.row div:hover{
+.row1 div:hover{
     top: 10px;
     box-shadow: 0 3px 10px #56B2BB;
 }
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.row2 div{
+    background: rgba(255, 255, 255, 0.2);
+ border-radius: 2px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border-color:  rgba(255,255,255,0.3);
+ position: relative;
+    top: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 28rem;
+    box-shadow: 0 3px 10px whitesmoke;
+}
+
+.row2 div:hover{
+    top: 10px;
+    box-shadow: 0 3px 10px #56B2BB;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.row3 div{
+    background: rgba(255, 255, 255, 0.2);
+ border-radius: 2px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border-color:  rgba(255,255,255,0.3);
+ position: relative;
+    top: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 28rem;
+    box-shadow: 0 3px 10px whitesmoke;
+}
+
+.row3 div:hover{
+    top: 10px;
+    box-shadow: 0 3px 10px #56B2BB;
+}
+
+.row4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.row4 div{
+    background: rgba(255, 255, 255, 0.2);
+ border-radius: 2px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border-color:  rgba(255,255,255,0.3);
+ position: relative;
+    top: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 28rem;
+    box-shadow: 0 3px 10px whitesmoke;
+}
+
+.row4 div:hover{
+    top: 10px;
+    box-shadow: 0 3px 10px #56B2BB;
+}
+
+.row5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.row5 div{
+    background: rgba(255, 255, 255, 0.2);
+ border-radius: 2px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(5px);
+ -webkit-backdrop-filter: blur(5px);
+ border-color:  rgba(255,255,255,0.3);
+ position: relative;
+    top: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 28rem;
+    box-shadow: 0 3px 10px whitesmoke;
+}
+
+.row5 div:hover{
+    top: 10px;
+    box-shadow: 0 3px 10px #56B2BB;
+}
+
 #certificate{
     position: relative;
     top: 800px;
@@ -283,14 +401,25 @@ background-color: #0A0F22;
     top: 20px;
 }
 
-
-.certrow{
+.certRow1{
     display: flex;
     flex-direction: row;
+    column-gap: 30px;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 30px;
-    
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    margin: 50px;
+}
+
+.certRow2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 160px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 50px;
 }
 
 #projects{
@@ -319,10 +448,9 @@ background-color: #0A0F22;
     font-weight: lighter;
 }
 
-.projectsrow{
+.projectsRow1{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
@@ -330,12 +458,24 @@ background-color: #0A0F22;
     top: 30px;
 }
 
-.projectsrow{
+.projectsRow2{
     display: flex;
     flex-direction: row;
+    column-gap: 20px;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: center;
+    position: inherit;
+    top: 50px;
+}
+
+.projectsRow3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+    top: 70px;
 }
 
 .untrainedChefs{
@@ -378,7 +518,32 @@ background-color: #0A0F22;
     text-align: left;
 }
 
-.project-card{
+.limitlessHorison{
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 50px;
+}
+
+.newYear{
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 50px;
+    
+}
+
+.Survey{
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 50px;
+}
+
+.air-bnb{
+      background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+    padding: 50px;
+}
+
+.nzululwazi{
     background-color: rgba(30, 39, 39, 0.3);
     box-shadow: 0 5px 30px black;
     padding: 50px;
@@ -469,7 +634,6 @@ form button{
     border: 2px solid #56B2BB;
     color: #FFFFFF;
     cursor: pointer;
-    
 }
 
 ::placeholder {
@@ -650,13 +814,13 @@ textarea:focus{
         text-align: center;
     }
 
-    .row{
+    .row1{
         flex-direction: column;
         justify-content: center;
     }
     
     
-    .row div{
+    .row1 div{
         width: 350px;
         display: flex;
         flex-direction: row;
@@ -664,18 +828,18 @@ textarea:focus{
         justify-content: center;
     }
 
-    .row div h1{
+    .row1 div h1{
         position: relative;
         left: 20px;
     }
 
-    .row{
+    .row2{
         flex-direction: column;
         justify-content: center;
     }
     
     
-    .row div{
+    .row2 div{
         width: 350px;
         display: flex;
         flex-direction: row;
@@ -683,10 +847,68 @@ textarea:focus{
         justify-content: center;
     }
 
-    .row div h1{
+    .row2 div h1{
         position: relative;
         left: 20px;
     }
+
+    .row3{
+        flex-direction: column;
+       justify-content: center;
+    }
+    
+    
+    .row3 div{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row3 div h1{
+        position: relative;
+        left: 20px;
+    }
+
+    .row4{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .row4 div{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row4 div h1{
+        position: relative;
+        left: 20px;
+    }
+
+    .row5{
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    
+    .row5 div{
+        width: 350px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row5 div h1{
+        position: relative;
+        left: 20px;
+    }
+
     #certificate{
         position: relative;
         top: 600px;
@@ -694,14 +916,14 @@ textarea:focus{
     }
     
 
-    .certrow{
+    .certRow1{
         display: flex;
         flex-direction: column;
         row-gap: 30px;
         justify-content: center;
     }
 
-    .certrow img{
+    .certRow1 img{
        width: 350px;
        width: 350px;
     }
@@ -713,7 +935,7 @@ textarea:focus{
         text-align: center;
     }
 
-    .projectsrow{
+    .projectsRow1{
         display: flex;
         flex-direction: column;
         column-gap: 50px; 
@@ -721,9 +943,42 @@ textarea:focus{
     
     }
 
-
-    .project-card{
+    .untrainedChefs{
         padding: 30px 10px 60px 10px;
+    }
+
+    .projectsRow2{
+        display: flex;
+        flex-direction: column;
+        column-gap: 50px; 
+        justify-content: center;
+    }
+
+    .limitlessHorison{
+        padding: 30px 10px 60px 10px;
+    }
+    
+    .newYear{
+        padding: 30px 10px 60px 10px;
+    }
+    
+    .Survey{
+        padding: 30px 10px 60px 10px;
+    }
+    
+    .calculator{
+        padding: 30px 10px 60px 10px;
+    }
+    
+    .nzululwazi{
+        padding: 30px 10px 60px 10px;
+    }
+
+    .projectsRow3{
+        display: flex;
+        flex-direction: column;
+        column-gap: 50px; 
+        justify-content: center;
     }
 
     .projectsButtons{
@@ -778,11 +1033,19 @@ textarea:focus{
         background-color: transparent;
         color: #FFFFFF;
     }
-
-    form button{
-        position: relative;
-        right: 10px;
-    }
     
     }
 
+/* #more{
+    display: none;
+}
+
+#dots{
+    color: #FFFFFF;
+}
+
+.readMoreBtn{
+  padding: 10px 20px 10px 20px;
+  background-color: transparent;
+ 
+} */
