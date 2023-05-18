@@ -109,7 +109,7 @@ background-color: #0A0F22;
     top: 80px;
 }
 
-.homeButton{
+.homeButtons{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
@@ -228,7 +228,7 @@ background-color: #0A0F22;
     top: 20px;
 }
 
-.row1{
+.row{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,7 +238,7 @@ background-color: #0A0F22;
 }
 
 
-.row1 div{
+.row div{
     background: rgba(255, 255, 255, 0.2);
  border-radius: 2px;
  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -253,128 +253,10 @@ background-color: #0A0F22;
     box-shadow: 0 3px 10px whitesmoke;
 }
 
-.row1 div:hover{
+.row div:hover{
     top: 10px;
     box-shadow: 0 3px 10px #56B2BB;
 }
-
-.row2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-}
-
-.row2 div{
-    background: rgba(255, 255, 255, 0.2);
- border-radius: 2px;
- box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
- backdrop-filter: blur(5px);
- -webkit-backdrop-filter: blur(5px);
- border-color:  rgba(255,255,255,0.3);
- position: relative;
-    top: 20px;
-    padding: 20px;
-    margin: 20px;
-    width: 28rem;
-    box-shadow: 0 3px 10px whitesmoke;
-}
-
-.row2 div:hover{
-    top: 10px;
-    box-shadow: 0 3px 10px #56B2BB;
-}
-
-.row3{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-}
-
-.row3 div{
-    background: rgba(255, 255, 255, 0.2);
- border-radius: 2px;
- box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
- backdrop-filter: blur(5px);
- -webkit-backdrop-filter: blur(5px);
- border-color:  rgba(255,255,255,0.3);
- position: relative;
-    top: 20px;
-    padding: 20px;
-    margin: 20px;
-    width: 28rem;
-    box-shadow: 0 3px 10px whitesmoke;
-}
-
-.row3 div:hover{
-    top: 10px;
-    box-shadow: 0 3px 10px #56B2BB;
-}
-
-.row4{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-}
-
-.row4 div{
-    background: rgba(255, 255, 255, 0.2);
- border-radius: 2px;
- box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
- backdrop-filter: blur(5px);
- -webkit-backdrop-filter: blur(5px);
- border-color:  rgba(255,255,255,0.3);
- position: relative;
-    top: 20px;
-    padding: 20px;
-    margin: 20px;
-    width: 28rem;
-    box-shadow: 0 3px 10px whitesmoke;
-}
-
-.row4 div:hover{
-    top: 10px;
-    box-shadow: 0 3px 10px #56B2BB;
-}
-
-.row5{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 50px;
-}
-
-
-.row5 div{
-    background: rgba(255, 255, 255, 0.2);
- border-radius: 2px;
- box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
- backdrop-filter: blur(5px);
- -webkit-backdrop-filter: blur(5px);
- border-color:  rgba(255,255,255,0.3);
- position: relative;
-    top: 20px;
-    margin: 20px;
-    padding: 20px;
-    width: 28rem;
-    box-shadow: 0 3px 10px whitesmoke;
-}
-
-.row5 div:hover{
-    top: 10px;
-    box-shadow: 0 3px 10px #56B2BB;
-}
-
 #certificate{
     position: relative;
     top: 800px;
@@ -401,25 +283,14 @@ background-color: #0A0F22;
     top: 20px;
 }
 
-.certRow1{
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-    margin: 50px;
-}
 
-.certRow2{
+.certrow{
     display: flex;
     flex-direction: row;
-    column-gap: 160px;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    margin: 50px;
+    justify-content: space-around;
+    margin-top: 30px;
+    
 }
 
 #projects{
@@ -448,9 +319,10 @@ background-color: #0A0F22;
     font-weight: lighter;
 }
 
-.projectsRow1{
+.projectsrow{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 20px;
     align-items: center;
     justify-content: center;
@@ -458,24 +330,12 @@ background-color: #0A0F22;
     top: 30px;
 }
 
-.projectsRow2{
+.projectsrow{
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
     align-items: center;
-    justify-content: center;
-    position: inherit;
-    top: 50px;
-}
-
-.projectsRow3{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    align-items: center;
-    justify-content: center;
-    position: inherit;
-    top: 70px;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .untrainedChefs{
@@ -484,7 +344,7 @@ background-color: #0A0F22;
     padding: 50px;
 }
 
-.untrainedInfo h1{
+.projectsInfo h1{
     color: #56B2BB !important;
     position: relative;
     top: 10px;
@@ -493,12 +353,12 @@ background-color: #0A0F22;
     text-align: left;
 }
 
-.untrainedInfo p{
+.projectsInfo p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif!important;
     font-size: 0.9rem !important;
 }
 
-.websiteButtons{
+.projectsButtons{
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -508,7 +368,7 @@ background-color: #0A0F22;
     top: 40px;
 }
 
-.untrainedInfo p{
+.projectsInfo p{
     color: #FFFFFF !important;
     position: relative;
     top: 20px;
@@ -518,32 +378,7 @@ background-color: #0A0F22;
     text-align: left;
 }
 
-.limitlessHorison{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
-
-.newYear{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-    
-}
-
-.Survey{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
-
-.calculator{
-      background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
-
-.nzululwazi{
+.project-card{
     background-color: rgba(30, 39, 39, 0.3);
     box-shadow: 0 5px 30px black;
     padding: 50px;
@@ -634,6 +469,7 @@ form button{
     border: 2px solid #56B2BB;
     color: #FFFFFF;
     cursor: pointer;
+    
 }
 
 ::placeholder {
@@ -735,7 +571,7 @@ textarea:focus{
         
     }
 
-    .homeButton{
+    .homeButtons{
         display: flex;
         flex-direction: row;
         column-gap: 20px;
@@ -814,13 +650,13 @@ textarea:focus{
         text-align: center;
     }
 
-    .row1{
+    .row{
         flex-direction: column;
         justify-content: center;
     }
     
     
-    .row1 div{
+    .row div{
         width: 350px;
         display: flex;
         flex-direction: row;
@@ -828,18 +664,18 @@ textarea:focus{
         justify-content: center;
     }
 
-    .row1 div h1{
+    .row div h1{
         position: relative;
         left: 20px;
     }
 
-    .row2{
+    .row{
         flex-direction: column;
         justify-content: center;
     }
     
     
-    .row2 div{
+    .row div{
         width: 350px;
         display: flex;
         flex-direction: row;
@@ -847,68 +683,10 @@ textarea:focus{
         justify-content: center;
     }
 
-    .row2 div h1{
+    .row div h1{
         position: relative;
         left: 20px;
     }
-
-    .row3{
-        flex-direction: column;
-       justify-content: center;
-    }
-    
-    
-    .row3 div{
-        width: 350px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .row3 div h1{
-        position: relative;
-        left: 20px;
-    }
-
-    .row4{
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    
-    .row4 div{
-        width: 350px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .row4 div h1{
-        position: relative;
-        left: 20px;
-    }
-
-    .row5{
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    
-    .row5 div{
-        width: 350px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .row5 div h1{
-        position: relative;
-        left: 20px;
-    }
-
     #certificate{
         position: relative;
         top: 600px;
@@ -916,14 +694,14 @@ textarea:focus{
     }
     
 
-    .certRow1{
+    .certrow{
         display: flex;
         flex-direction: column;
         row-gap: 30px;
         justify-content: center;
     }
 
-    .certRow1 img{
+    .certrow img{
        width: 350px;
        width: 350px;
     }
@@ -935,7 +713,7 @@ textarea:focus{
         text-align: center;
     }
 
-    .projectsRow1{
+    .projectsrow{
         display: flex;
         flex-direction: column;
         column-gap: 50px; 
@@ -943,45 +721,12 @@ textarea:focus{
     
     }
 
-    .untrainedChefs{
+
+    .project-card{
         padding: 30px 10px 60px 10px;
     }
 
-    .projectsRow2{
-        display: flex;
-        flex-direction: column;
-        column-gap: 50px; 
-        justify-content: center;
-    }
-
-    .limitlessHorison{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .newYear{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .Survey{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .calculator{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .nzululwazi{
-        padding: 30px 10px 60px 10px;
-    }
-
-    .projectsRow3{
-        display: flex;
-        flex-direction: column;
-        column-gap: 50px; 
-        justify-content: center;
-    }
-
-    .websiteButtons{
+    .projectsButtons{
         position: relative;
         right: 2.3rem;
     }
@@ -1033,19 +778,11 @@ textarea:focus{
         background-color: transparent;
         color: #FFFFFF;
     }
+
+    form button{
+        position: relative;
+        right: 10px;
+    }
     
     }
 
-/* #more{
-    display: none;
-}
-
-#dots{
-    color: #FFFFFF;
-}
-
-.readMoreBtn{
-  padding: 10px 20px 10px 20px;
-  background-color: transparent;
- 
-} */
