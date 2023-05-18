@@ -724,11 +724,6 @@ textarea:focus{
 
     .project-card{
         padding: 30px 10px 60px 10px;
-        width: 100px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
     }
 
     .projectsButtons{
