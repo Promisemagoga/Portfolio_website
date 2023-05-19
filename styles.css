@@ -376,36 +376,6 @@ background-color: #0A0F22;
     text-align: left;
 }
 
-.limitlessHorison{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
-
-.newYear{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-    
-}
-
-.Survey{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
-
-.air-bnb{
-      background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 40px;
-}
-
-.nzululwazi{
-    background-color: rgba(30, 39, 39, 0.3);
-    box-shadow: 0 5px 30px black;
-    padding: 50px;
-}
 
 .contact{
     position: relative;
@@ -466,10 +436,11 @@ form{
     box-shadow: 0 5px 30px black;
     position: relative;
     top: 100px;
-    left: 360px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input{
