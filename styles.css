@@ -228,7 +228,7 @@ background-color: #0A0F22;
     top: 20px;
 }
 
-.row1{
+.row{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -238,7 +238,7 @@ background-color: #0A0F22;
 }
 
 
-.row1 div{
+.row div{
     background: rgba(255, 255, 255, 0.2);
  border-radius: 2px;
  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -253,7 +253,7 @@ background-color: #0A0F22;
     box-shadow: 0 3px 10px whitesmoke;
 }
 
-.row1 div:hover{
+.row div:hover{
     top: 10px;
     box-shadow: 0 3px 10px #56B2BB;
 }
@@ -814,13 +814,13 @@ textarea:focus{
         text-align: center;
     }
 
-    .row1{
+    .row{
         flex-direction: column;
         justify-content: center;
     }
     
     
-    .row1 div{
+    .row div{
         width: 350px;
         display: flex;
         flex-direction: row;
@@ -828,7 +828,7 @@ textarea:focus{
         justify-content: center;
     }
 
-    .row1 div h1{
+    .row div h1{
         position: relative;
         left: 20px;
     }
