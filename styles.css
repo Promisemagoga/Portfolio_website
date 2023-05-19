@@ -296,6 +296,7 @@ background-color: #0A0F22;
 .certRow img{
     margin: 30px;
     width: 100%;
+    height: 400px;
 }
 
 #projects{
@@ -324,40 +325,21 @@ background-color: #0A0F22;
     font-weight: lighter;
 }
 
-.projectsRow1{
+.projectsRow{
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
     align-items: center;
     justify-content: center;
-    position: relative;
-    top: 30px;
+    
 }
 
-.projectsRow2{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    align-items: center;
-    justify-content: center;
-    position: inherit;
-    top: 50px;
-}
-
-.projectsRow3{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    align-items: center;
-    justify-content: center;
-    position: inherit;
-    top: 70px;
-}
-
-.untrainedChefs{
+.projectCard{
     background-color: rgba(30, 39, 39, 0.3);
     box-shadow: 0 5px 30px black;
     padding: 50px;
+    margin: 30px;
+    width: 100%;
+    height: auto;
 }
 
 .projectsInfo h1{
@@ -732,54 +714,20 @@ textarea:focus{
     #projects{
         position: relative;
         top: 700px;
-        left: 1rem;
         text-align: center;
     }
 
-    .projectsRow1{
+    .projectsRow{
         display: flex;
         flex-direction: column;
         column-gap: 50px; 
         justify-content: center;
-    
+    width: 100%;
     }
 
-    .untrainedChefs{
+    .projectCard{
         padding: 30px 10px 60px 10px;
-    }
-
-    .projectsRow2{
-        display: flex;
-        flex-direction: column;
-        column-gap: 50px; 
-        justify-content: center;
-    }
-
-    .limitlessHorison{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .newYear{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .Survey{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .calculator{
-        padding: 30px 10px 60px 10px;
-    }
-    
-    .nzululwazi{
-        padding: 30px 10px 60px 10px;
-    }
-
-    .projectsRow3{
-        display: flex;
-        flex-direction: column;
-        column-gap: 50px; 
-        justify-content: center;
+        width: 100%;
     }
 
     .projectsButtons{
