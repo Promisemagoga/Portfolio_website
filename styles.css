@@ -495,6 +495,7 @@ textarea:focus{
     .topnav {
         overflow: hidden;
         position: relative;
+        justify-content: space-around;
       }
       
       .topnav #myTopnav {
@@ -502,8 +503,6 @@ textarea:focus{
       }
 
       #myTopnav {
-        /* background-color: #56B2BB;
-        padding: 20px 0px; */
         text-align: center;
         margin: 0%;
       }
